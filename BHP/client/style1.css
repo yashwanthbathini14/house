@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.button-container {
+    display: flex;
+    gap: 280px; /* Space between buttons */
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.residential {
+    background-color: #1e90ff;
+    color: white;
+    padding: 15px 30px;
+    font-size: 25px;
+    border: none;
+    border-radius: 8px;
+    cursor:pointer;
+    transition: box-shadow 0.3s ease;
+    outline: none;
+    box-shadow: none;
+    box-shadow: 0 0 10px #4CAF50, 0 0 20px #4CAF50, 0 0 30px #4CAF50;
+}
+
+.commercial {
+    background-color: #008CBA; /* Blue */
+    color: white;
+    padding: 15px 30px;
+    font-size: 25px;
+    border: none;
+    border-radius: 8px;
+    cursor:pointer;
+    transition: box-shadow 0.3s ease;
+    outline: none;
+    box-shadow: none;
+    box-shadow: 0 0 10px #4CAF50, 0 0 20px #4CAF50, 0 0 30px #4CAF50;
+}
+.img {
+    background: url('https://www.sukhii.group/blog/wp-content/uploads/2021/12/Sukhii-_-Blog-Image-01.jpg');
+      background-repeat: no-repeat;
+    background-size: auto;
+    background-size:100% 100%;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
